@@ -39,3 +39,52 @@
     background-image: url('../images/image-1.webp');
     background-attachment: fixed;
 }
+
+.products{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap:10px;
+    .product{
+        width: 35%;
+        h1{
+            color: whitesmoke;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+        p{
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            box-orient: vertical;
+            -webkit-line-clamp: 3;
+            line-clamp: 3;
+            overflow: hidden;
+            color: lightgrey;
+            line-height: 25px;
+            margin-bottom: 10px;
+        }
+        img{
+            width: 80%;
+            display: block;
+            margin: 10px auto;
+        }
+        a{
+            display: block;
+            width: fit-content;
+            padding: 0 10px;
+            margin: 10px auto;
+            height: 40px;
+            background-color: green;
+            text-decoration: none;
+            text-transform: capitalize;
+            text-align: center;
+            line-height: 40px;
+            color: whitesmoke;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    }
+}
