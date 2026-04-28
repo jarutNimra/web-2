@@ -33,3 +33,9 @@
         }
     }
 }
+.parallax{
+    width: 100%;
+    height: calc(100vh - 40px);
+    background-image: url('../images/image-1.webp');
+    background-attachment: fixed;
+}
